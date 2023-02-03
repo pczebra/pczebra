@@ -49,8 +49,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
-giscus: true
+giscus: my_giscus_settings
 
 # Pagination
 paginate: 10

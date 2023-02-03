@@ -1,4 +1,5 @@
-<div class="giscus_comment">
+{% if site.giscus %}
+<div class="comments">
     <div id="giscus_thread"></div>
     <script src="https://giscus.app/client.js"
         data-repo="pczebra/pczebra"
@@ -15,3 +16,4 @@
         crossorigin="anonymous"
         async>
 </script>
+{% endif %}
