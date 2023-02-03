@@ -16,10 +16,8 @@
     right: 0;
     z-index: 103;
 
-    /* color: #000; */
-    /* background: #fff; */
-    color: #fff;
-    background: rgba(255, 255, 255, 0);
+    color: #000;
+    background: #fff;
 
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -29,7 +27,7 @@
 }
 
 .site-header #site-header-brand {
-    color: #ffffff;
+    color: #2e2e2e;
     float: left;
 }
 
@@ -55,7 +53,7 @@
 }
 
 .site-header-nav-item {
-    color: #fff;
+    color: #000;
     display:inline-block;
     padding:10px;
     margin-left:1.25rem;

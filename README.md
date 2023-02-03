@@ -1,8 +1,8 @@
-# Thanks for [Yummy] Jekyll Theme
+# About Me
+
+##### Thanks for [Yummy] Jekyll Theme
 [Yummy]: http://dongchuan.github.io/
 
-## About Me
-
-## License
+### License
 
 The Apache License 2.0

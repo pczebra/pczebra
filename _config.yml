@@ -48,8 +48,15 @@ kramdown:
   input: GFM
   enable_coderay: true
 
-# Disque
-giscus: my_giscus_settings
+# Giscus
+giscus:
+  enable: true
+  repo: pczebra/pczebra
+  id: R_kgDOI5MmWA
+  category: Announcements
+  cateId: DIC_kwDOI5MmWM4CT-QH
+  mapping: pathname
+
 
 # Pagination
 paginate: 10
