@@ -6,22 +6,22 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Pczebra # ex. I m Chuan
-name: Pczebra # ex. DONGChuan
-email: my_email_address@lalala.com
-location: My location # ex. Nice, France
-company: MyCompany
-company_url: my_company_website
+title: Pczebra's Blogs # ex. I m Chuan
+name: pczebra # ex. DONGChuan
+email: 1240693298@qq.com
+location: Hangzhou, China # ex. Nice, France
+company: H3C
+company_url: https://www.h3c.com/cn
 github_url: https://github.com/pczebra
-github_username: # ex. DONGChuan
-description: description_of_your_web_site
-favicon: favicon.png # Image must be in assets/images
-repository: blog/pczebra.github.io # ex. DONGChuan/DONGChuan.github.io
+github_username: pczebra
+description: pczebra的个人博客网站
+favicon: favicon.jpg # Image must be in assets/images
+repository: pczebra/pczebra.github.io # ex. DONGChuan/DONGChuan.github.io
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: https://pczebra.github.io
+url: https://pczebra.github.io/pczebra
 baseurl: /pczebra
 
 ## Gem
@@ -38,7 +38,7 @@ highlighter: rouge
 lsi:         false
 excerpt_separator: "\n\n"
 
-source:      ./pczebra
+source:      .
 destination: ./_site
 
 quiet:    false
