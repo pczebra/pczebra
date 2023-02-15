@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Docker & K8s 在windows10上的部署"
-date: 2023-02-015
-categories: Docker Kubernetes
+date: 2023-02-15
+categories: Docker&Kubernetes
 ---
 
 # Docker&Kubernetes个人笔记
