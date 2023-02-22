@@ -14,3 +14,8 @@ categories: Docker&Kubernetes
   > * K8s [dashboard][1] 访问地址
   
   [1]: http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
+
+### Kubernetes教程与总结
+  1. K8s[官方教程][2]
+  
+  [2]: https://kubernetes.io/zh-cn/docs/tutorials/kubernetes-basics/
