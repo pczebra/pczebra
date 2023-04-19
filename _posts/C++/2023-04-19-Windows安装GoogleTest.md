@@ -105,4 +105,4 @@ categories: C++
   ```
 
   测试结果如下：
-  ![测试结果](assets/../../../assets/images/C++/googletest/20230419155130.png)
+  ![测试结果](./../../assets/images/C++/googletest/20230419155130.png)
