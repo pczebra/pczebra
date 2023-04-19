@@ -21,7 +21,7 @@ categories: C++
   
   cmake[下载地址](https://cmake.org/download/)
   下载可执行文件版本，一路next,选择如下选项，将cmake加入系统环境变量中：
-  ![将cmake加入系统环境变量](./images/googletest/20210913102105680.png)
+  ![将cmake加入系统环境变量](assets/../../../assets/images/C++/googletest/20210913102105680.png)
   安装完成后，使用 `cmake --version`命令查看cmake安装完成。
 
 ### GoogleTest(gtest) 安装
@@ -29,16 +29,16 @@ categories: C++
   1. 下载最新版本的[gtest](https://github.com/google/googletest/releases),解压缩后进入压缩后的目录，创建一个**build**文件夹，使用cmake-ui进行预编译
 
      打开cmake-ui,进行如下配置：
-     ![cmake-ui配置](./images/googletest/cmake-ui%20config.png),
+     ![cmake-ui配置](assets/../../../assets/images/C++/googletest/cmake-ui%20config.png),
      第二步configure如下：
-     ![选择编译器](./images/googletest/20180316102845790.png)
+     ![选择编译器](assets/../../../assets/images/C++/googletest/20180316102845790.png)
 
      C语言选择GCC,C++语言选择G++:
-     ![选择语言编译器](./images/googletest/20180316102857664.png)
+     ![选择语言编译器](assets/../../../assets/images/C++/googletest/20180316102857664.png)
 
   2. 完成cmake-ui预编译后，进入刚刚建好的**build**文件夹中，执行命令：`mingw32-make`
      命令会在**build**文件夹下生成**lib**文件夹，包含4个二进制文件（**libgtest.a**和**libtest_main.a**），将**lib**文件夹和googletest目录下的**include**文件夹拷贝到你的代码文件夹中：
-       ![使用gtest-link统一管理](./images/googletest/1681888308911.jpg)
+       ![使用gtest-link统一管理](assets/../../../assets/images/C++/googletest/1681888308911.jpg)
 
   3. 在代码文件夹中新建CmakeLists.txt，内容如下：
 
@@ -105,4 +105,4 @@ categories: C++
   ```
 
   测试结果如下：
-  ![测试结果](./images/googletest/20230419155130.png)
+  ![测试结果](assets/../../../assets/images/C++/googletest/20230419155130.png)
