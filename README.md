@@ -1,7 +1,7 @@
 # About
 
 - see the homepage at (<https://pczebra.github.io/pczebra/>)
-  &nbsp;<br/>
+  &nbsp; <br/>
 
 #### Thanks for [Yummy] Jekyll Theme
 
